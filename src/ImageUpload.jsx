@@ -18,9 +18,9 @@ const ImageUpload = () => {
     }
 
   return (
-    <div>
-      <input type="file" name="profilePicture" id="profilePicture" onChange={handleUpload}/>
-      <button onClick={handleApi}>Upload</button>
+    <div className='container mx-auto flex flex-col'>
+      <input type="file" name="profilePicture" id="profilePicture" onChange={handleUpload} className='w-full'/>
+      <button onClick={handleApi} className='bg-blue-600 h-10 rounded-full w-20 text-white hover:bg-blue-400 font-bold my-8'>Upload</button>
     </div>
   )
 }

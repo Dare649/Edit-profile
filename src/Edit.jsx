@@ -20,8 +20,8 @@ const Edit = () => {
 
   return (
     <div>
-      <form className='container w-3/4 mt-20 mx-auto px-6' onSubmit={handleSubmit(onSubmit)}>
-        <div className='mb-8'>
+      <form className='container sm:w-2/4 shadow-xl mx-auto p-8 rounded-2xl mt-10 ' onSubmit={handleSubmit(onSubmit)}>
+        <div className='my-6 px-10'>
             <ImageUpload/>
         </div>
         <div className='relative z-0 w-full mb-6 group'>
